@@ -1,0 +1,23 @@
+---
+import Section from "./section.astro";
+---
+
+<Section
+    title="Disfrute de los mejores diseños y estilo"
+    subtitle="Programa una prueba con especialistas en diseño"
+    color="white"
+>
+    <div slot="footer">
+        <a
+            class="border-2 rounded font-medium backdrop-blur-sm text-white px-8 py-3 inline-block hover:bg-white hover:text-black transition-colors"
+            href="#">Programar Prueba</a
+        >
+    </div>
+    <video
+        slot="background"
+        class="object-center object-cover h-full w-full"
+        autoplay
+        muted
+        loop
+        src="/video.webm"></video>
+</Section>

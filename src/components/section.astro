@@ -5,15 +5,15 @@ const textColor = `text-${color}`;
 
 <section
     class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative"
-    data-header-color="white"
+    data-header-color={color}
 >
     <div class="z-30 relative h-full flex flex-col">
         <header>
-            <h2 class=`{${textColor} pt-40 text-4xl font-medium` }>
+            <h2 class={`${textColor} pt-40 text-4xl font-medium`}>
                 {title}
             </h2>
 
-            <p class=`{${textColor} text-sm pt-5}`>
+            <p class={`${textColor} text-sm pt-5`}>
                 {subtitle}
             </p>
         </header>

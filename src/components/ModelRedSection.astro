@@ -1,0 +1,26 @@
+---
+import Section from "./section.astro";
+---
+
+<Section
+    title="Modelo x"
+    subtitle="Programa una prueba con especialistas en diseño"
+    color="black"
+>
+    <div slot="footer" class="gap-x-4 flex mx-auto">
+        <a
+            class="rounded bg-black font-medium text-white px-8 py-3 inline-block hover:bg-white hover:text-black transition-colors"
+            href="#">Explorar Inventario</a
+        >
+        <a
+            class="bg-white rounded font-medium text-black px-8 py-3 inline-block hover:bg-black hover:text-white transition-colors"
+            href="#">Programar Prueba</a
+        >
+    </div>
+    <img
+        slot="background"
+        src="/redcard.avif"
+        alt="Modelo 3"
+        class="h-full object-cover object-center w-screen"
+    />
+</Section>
